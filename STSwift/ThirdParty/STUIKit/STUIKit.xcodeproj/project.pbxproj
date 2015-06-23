@@ -14,7 +14,6 @@
 		D3FDC6991B39BA550044E18F /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDC6951B39BA550044E18F /* UIImageExt.swift */; };
 		D3FDC69A1B39BA550044E18F /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDC6961B39BA550044E18F /* UIImageViewExt.swift */; };
 		D3FDC69B1B39BA550044E18F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDC6971B39BA550044E18F /* UIViewExt.swift */; };
-		D3FDC69D1B39BA610044E18F /* STCheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDC69C1B39BA610044E18F /* STCheckBoxButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +37,6 @@
 		D3FDC6951B39BA550044E18F /* UIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
 		D3FDC6961B39BA550044E18F /* UIImageViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
 		D3FDC6971B39BA550044E18F /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
-		D3FDC69C1B39BA610044E18F /* STCheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCheckBoxButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +79,7 @@
 		D3FDC6701B39BA160044E18F /* STUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D3FDC69E1B39BAD10044E18F /* Views */,
 				D3FDC6931B39BA550044E18F /* Extension */,
 				D3FDC6731B39BA160044E18F /* STUIKit.h */,
 				D3FDC6711B39BA160044E18F /* Supporting Files */,
@@ -116,13 +115,19 @@
 		D3FDC6931B39BA550044E18F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				D3FDC69C1B39BA610044E18F /* STCheckBoxButton.swift */,
 				D3FDC6941B39BA550044E18F /* UIColorExt.swift */,
 				D3FDC6951B39BA550044E18F /* UIImageExt.swift */,
 				D3FDC6961B39BA550044E18F /* UIImageViewExt.swift */,
 				D3FDC6971B39BA550044E18F /* UIViewExt.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		D3FDC69E1B39BAD10044E18F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +241,6 @@
 				D3FDC6981B39BA550044E18F /* UIColorExt.swift in Sources */,
 				D3FDC69A1B39BA550044E18F /* UIImageViewExt.swift in Sources */,
 				D3FDC6991B39BA550044E18F /* UIImageExt.swift in Sources */,
-				D3FDC69D1B39BA610044E18F /* STCheckBoxButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
