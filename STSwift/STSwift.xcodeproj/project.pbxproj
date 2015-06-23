@@ -37,18 +37,18 @@
 			remoteGlobalIDString = D3FDC5A91B39AF8E0044E18F;
 			remoteInfo = STUIKitTests;
 		};
-		D3FDC5EE1B39AFD00044E18F /* PBXContainerItemProxy */ = {
+		D3FDC62C1B39B72E0044E18F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3FDC5E91B39AFCE0044E18F /* STFoundation.xcodeproj */;
+			containerPortal = D3FDC6271B39B72D0044E18F /* STFoundation.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D3FDC5CD1B39AFCE0044E18F;
+			remoteGlobalIDString = D3FDC60B1B39B72D0044E18F;
 			remoteInfo = STFoundation;
 		};
-		D3FDC5F01B39AFD00044E18F /* PBXContainerItemProxy */ = {
+		D3FDC62E1B39B72E0044E18F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3FDC5E91B39AFCE0044E18F /* STFoundation.xcodeproj */;
+			containerPortal = D3FDC6271B39B72D0044E18F /* STFoundation.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D3FDC5D81B39AFCE0044E18F;
+			remoteGlobalIDString = D3FDC6161B39B72D0044E18F;
 			remoteInfo = STFoundationTests;
 		};
 /* End PBXContainerItemProxy section */
@@ -65,7 +65,7 @@
 		D3FDC5531B39AE1B0044E18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3FDC5541B39AE1B0044E18F /* STSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STSwiftTests.swift; sourceTree = "<group>"; };
 		D3FDC5BA1B39AF8E0044E18F /* STUIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = STUIKit.xcodeproj; path = STUIKit/STUIKit.xcodeproj; sourceTree = "<group>"; };
-		D3FDC5E91B39AFCE0044E18F /* STFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = STFoundation.xcodeproj; path = STFoundation/STFoundation.xcodeproj; sourceTree = "<group>"; };
+		D3FDC6271B39B72D0044E18F /* STFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = STFoundation.xcodeproj; path = STFoundation/STFoundation.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				D3FDC5BA1B39AF8E0044E18F /* STUIKit.xcodeproj */,
-				D3FDC5E91B39AFCE0044E18F /* STFoundation.xcodeproj */,
+				D3FDC6271B39B72D0044E18F /* STFoundation.xcodeproj */,
 			);
 			path = ThirdParty;
 			sourceTree = "<group>";
@@ -161,11 +161,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3FDC5EA1B39AFCE0044E18F /* Products */ = {
+		D3FDC6281B39B72D0044E18F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3FDC5EF1B39AFD00044E18F /* STFoundation.framework */,
-				D3FDC5F11B39AFD00044E18F /* STFoundationTests.xctest */,
+				D3FDC62D1B39B72E0044E18F /* STFoundation.framework */,
+				D3FDC62F1B39B72E0044E18F /* STFoundationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,8 +239,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D3FDC5EA1B39AFCE0044E18F /* Products */;
-					ProjectRef = D3FDC5E91B39AFCE0044E18F /* STFoundation.xcodeproj */;
+					ProductGroup = D3FDC6281B39B72D0044E18F /* Products */;
+					ProjectRef = D3FDC6271B39B72D0044E18F /* STFoundation.xcodeproj */;
 				},
 				{
 					ProductGroup = D3FDC5BB1B39AF8E0044E18F /* Products */;
@@ -270,18 +270,18 @@
 			remoteRef = D3FDC5C11B39AF8F0044E18F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D3FDC5EF1B39AFD00044E18F /* STFoundation.framework */ = {
+		D3FDC62D1B39B72E0044E18F /* STFoundation.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = STFoundation.framework;
-			remoteRef = D3FDC5EE1B39AFD00044E18F /* PBXContainerItemProxy */;
+			remoteRef = D3FDC62C1B39B72E0044E18F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D3FDC5F11B39AFD00044E18F /* STFoundationTests.xctest */ = {
+		D3FDC62F1B39B72E0044E18F /* STFoundationTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = STFoundationTests.xctest;
-			remoteRef = D3FDC5F01B39AFD00044E18F /* PBXContainerItemProxy */;
+			remoteRef = D3FDC62E1B39B72E0044E18F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
